@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🧠 Quiz Challenge</h1>
+    <div class="quiz-card">
+      <div class="quiz-header">
+        <div class="progress">
+          <p>Question <span id="currentQuestion">1</span>/10</p>
+          <p>Time Left: <span id="timer">30</span>s</p>
+        </div>
+      </div>
+
+      <div id="questionContainer"></div>
+
+      <div class="feedback" id="feedback"></div>
+
+      <div class="btn-group">
+        <button id="prevBtn" class="btn">Previous</button>
+        <button id="nextBtn" class="btn">Next</button>
+        <button id="submitBtn" class="btn submit">Submit</button>
+      </div>
+
+      <div class="score-container" id="scoreContainer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
